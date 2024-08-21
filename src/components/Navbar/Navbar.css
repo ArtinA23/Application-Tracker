@@ -1,0 +1,99 @@
+.navbar {
+    width: 200px;
+    background-color: #f0f4ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.navbar-profile {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #d9e1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3c4f76;
+    margin-left: -100px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    
+}
+
+.account-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+.account-profile:hover {
+    background-color: lightgray
+}
+
+
+.applications-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+.applications-profile:hover {
+    background-color: lightgray
+}
+
+
+.roles-saved {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+.roles-saved:hover {
+    background-color: lightgray
+}
+
+
+.list-of-todo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+.list-of-todo:hover {
+    background-color: lightgray
+}
+
+
+.tracker {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 150px;
+    transition: background-color 0.3s ease-in-out
+}
+.tracker:hover {
+    background-color: lightgray
+}
+
+.random-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar-menu {
+    flex-grow: 1;
+    width: 100%;
+}
